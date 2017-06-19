@@ -1,3 +1,11 @@
+body {
+  background: aquamarine; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, aquamarine , aqua); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, aquamarine, aqua); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, aquamarine, aqua); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, aquamarine , aqua); /* Standard syntax */
+}
+
 table, tr, td {
   padding: 10px;
   text-align: center;
